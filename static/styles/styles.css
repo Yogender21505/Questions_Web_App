@@ -1,0 +1,192 @@
+/* CSS styles for the Statistical Questionnaire */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+#question {
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+
+ @import url(https://fonts.googleapis.com/css?family=Lato);
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: #1A1E23;
+}
+
+#options button {
+  display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+  --hue: 190;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: hsl(var(--hue), 100%, 41%);
+  border: 1px solid hsl(var(--hue), 100%, 41%);
+  outline: transparent;
+  overflow: hidden;
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+  transition: 0.25s;
+  border-radius: 20px 20px 20px 20px
+}
+#options button:hover {
+  background: hsl(var(--hue), 100%, 31%);
+}
+.btn-primary {
+  --hue: 187;
+}
+.btn-ghost {
+  color: hsl(var(--hue), 100%, 41%);
+  background-color: transparent;
+  border-color: hsl(var(--hue), 100%, 41%);
+}
+.btn-ghost:hover {
+  color: white;
+}
+.btn-shine {
+  color: white;
+}
+.btn-shine::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(120deg, transparent, hsla(var(--hue), 100%, 41%, 0.5), transparent);
+  transform: translateX(-100%);
+  transition: 0.6s;
+  
+}
+.btn-shine:hover {
+  background: transparent;
+  box-shadow: 0 0 20px 10px hsla(var(--hue), 100%, 41%, 0.5);
+}
+.btn-shine:hover::before {
+  transform: translateX(100%);
+}
+
+
+
+
+
+
+
+#answer{
+    margin-bottom: 20px;
+    color: white;
+}
+.back-button {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    color: white; /* Optionally, change color to red */
+    background-color: rgb(252, 12, 12);
+    font-size: 16px;
+}
+/* .back-button1 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: red; 
+} */
+/*color: white; 
+background-color: transparent */
+/* margin-bottom: 10px; */
+
+
+
+
+#restart-button {
+  bottom: 10px;
+  right: 10px;
+  position: fixed;
+  display: block;
+  cursor: pointer;
+  --hue: 190;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: hsl(var(--hue), 100%, 41%);
+  border: 1px solid hsl(var(--hue), 100%, 41%);
+  outline: transparent;
+  overflow: hidden;
+  user-select: none;
+  white-space: nowrap;
+  transition: 0.25s;
+  border-radius: 20px 20px 20px 20px;
+}
+
+#restart-button:hover {
+  background-color: hsl(var(--hue), 100%, 31%);
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=inter');
+
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+/* Default Styling */
+body {
+  font-family: 'inter', cursive;
+  background: #000;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.heading_box{
+    color:(55, 213, 142);
+    border-radius: 5px;
+    padding: 40px;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    left: 50%; /* Move the element horizontally to the center */
+    transform: translateX(-50%)
+}
+.box {
+  background-color:transparent;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+}
+
+  
+a {
+  color: rgb(220, 22, 22);
+}
+
